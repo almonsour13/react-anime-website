@@ -14,7 +14,7 @@ const App = () => {
             <NavBar/>
             <div className="page-container">
                 <Routes>
-                    <Route path="/home" element={<Home/>}></Route>
+                    <Route path="/" element={<Home/>}></Route>
                     <Route path="/anime" element={<Anime/>}></Route>
                     <Route path="/genre" element={<Genre/>}></Route>
                     <Route path="/collection" element={<Collection/>}></Route>
